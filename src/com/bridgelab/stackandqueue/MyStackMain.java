@@ -9,5 +9,10 @@ public class MyStackMain {
         mystack.Push(70);
 
         mystack.PrintStack();
+
+        mystack.peek();
+        mystack.pop();
+
+        mystack.PrintStack();
     }
 }
