@@ -6,6 +6,9 @@ public class MyQueue {
     public void enQueue(Integer Data) {
         newlist.addLast(Data);
     }
+    public void deQueue() {
+        newlist.remove();
+    }
 
     public void PrintQueue() {
         System.out.println(newlist);
@@ -20,6 +23,9 @@ public class MyQueue {
         myQueue.enQueue(30);
         myQueue.enQueue(70);
 
+        myQueue.PrintQueue();
+
+        myQueue.deQueue();
         myQueue.PrintQueue();
     }
 }
